@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/sentinel-logo.png" width="90" alt="SENTINEL Logo">
+<img src="assets/sentinel-logo.png" alt="SENTINEL Logo">
 
 # S E N T I N E L
 
