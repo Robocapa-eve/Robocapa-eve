@@ -6,7 +6,7 @@
 
 ### TACTICAL INTELLIGENCE FOR EVE ONLINE
 
-**Real-time tactical awareness, live intelligence monitoring and threat analysis for New Eden.**
+**Real-time tactical situational awareness, highly specialized live feed intelligence monitoring and map-based threat analysis for New Eden.**
 
 <br>
 
@@ -14,6 +14,10 @@
 ![Channel](https://img.shields.io/badge/CHANNEL-ALPHA-4da3d9?style=flat-square)
 ![Platform](https://img.shields.io/badge/PLATFORM-WINDOWS-737d8c?style=flat-square)
 ![Version](https://img.shields.io/badge/VERSION-0.2.29--alpha-8b6fd9?style=flat-square)
+
+<br><br>
+
+**🇬🇧 English** · [🇩🇪 Deutsch](README_DE.md)
 
 </div>
 
@@ -322,6 +326,10 @@ Features are therefore designed around practical use while actively playing EVE 
 *See what matters. Know what is happening.*
 
 <br>
+
+**🇬🇧 English** · [🇩🇪 Deutsch](README_DE.md)
+
+<br><br>
 
 <sub>
 SENTINEL is a third-party application for EVE Online and is not affiliated with or endorsed by CCP Games.<br>
