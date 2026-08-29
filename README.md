@@ -33,13 +33,29 @@
 
 **SENTINEL** is a Windows-based tactical intelligence and situational-awareness platform for **EVE Online**.
 
-It is built for pilots who do not want to mentally combine a killboard, several Intel channels, a route planner, scout information and a universe map while something is already moving toward their pocket.
+It is built for pilots who do not want to mentally combine a killboard, several Intel channels, a route planner, scout information and a universe map while New Eden keeps moving around them.
 
 SENTINEL fuses **live kill activity, multiple Intel sources, scout context, monitoring position, jump distance, route context and native alerts** into one operational picture.
 
 > **SENTINEL doesn't just show kills. It turns live events into actionable tactical intelligence.**
 
 ### **See the threat. Know the distance. Watch the route. React before it reaches you.**
+
+---
+
+# FIND THE THREAT. FIND THE CONTENT.
+
+### **SENTINEL does not only show you what to avoid — it shows you where New Eden is alive.**
+
+Live kill activity across New Eden makes developing hotspots and active areas visible on the tactical map. The same operational picture can be used defensively to protect a mining operation, hauling route, PvE pocket or staging system — or offensively to find activity, roaming targets and the next place where content is developing.
+
+SENTINEL is therefore not built around one play style. It is useful to **miners, haulers, PvE pilots, explorers, scouts, hunters, roamers, fleets and corporations** because the question remains the same:
+
+> **What is happening, where is it happening, how far away is it — and what does it mean for me?**
+
+### **The same intelligence that tells a miner where not to go can tell a roaming pilot where to go next.**
+
+**Avoid the threat. Find the action. Understand the space around you.**
 
 ---
 
@@ -61,6 +77,8 @@ Instead of leaving a kill buried inside a scrolling feed, SENTINEL can show the 
 
 The Live Kill Map is designed to be configurable for different play styles. Tactical controls include configurable Kill ranges, marker lifetime, pulse / radar lifetime, visual threat colors and independent alert behavior.
 
+That means the map can be used to see a dangerous pocket forming around you — or to look across New Eden and identify where activity and potential content are developing right now.
+
 Whether you are mining, hauling, scouting, roaming or watching a staging pocket, the important question is not only *what died?*
 
 It is:
@@ -71,7 +89,7 @@ It is:
 
 ## 🚨 UNIQUE TACTICAL LIVE MAP WARNING SYSTEM
 
-### **Your Overview tells you what's on grid. SENTINEL helps tell you what's coming.**
+### **Your Overview tells you what's on grid. SENTINEL helps you understand what's happening beyond it.**
 
 One of SENTINEL's defining systems is its **Unique Tactical Live Map Warning System**.
 
@@ -91,6 +109,8 @@ The warning system combines:
 A hostile kill several jumps away should not require the pilot to constantly refresh another website and calculate the route mentally.
 
 **SENTINEL puts the event on the map, gives it distance and context, and warns around the position you are actually monitoring.**
+
+Used defensively, that can mean earlier awareness of danger. Used offensively, the same live map can help a hunter or roaming pilot understand where activity is building and where the next fight may be found.
 
 > **From raw kill events to tactical awareness.**
 
@@ -140,6 +160,51 @@ SYSTEM DOSSIER / ROUTE CONTEXT
 ```
 
 That pipeline is the core SENTINEL idea: **information should reduce reaction time — not create more noise.**
+
+---
+
+# ONE SPECIALIZED MISSION
+
+There are hundreds of EVE tools.
+
+Some calculate fittings.  
+Some track markets.  
+Some plan industry.  
+Some show killboards.  
+Some provide maps.
+
+SENTINEL deliberately specializes in another layer of the EVE experience:
+
+### **Tactical awareness before the situation reaches your grid.**
+
+Who is moving?  
+What is dying?  
+Where is activity building?  
+How far away is it?  
+Is it moving toward my area?  
+Is this danger — or is this the content I am looking for?
+
+**SENTINEL exists to help answer those questions faster.**
+
+> **Your Overview tells you what is on grid. SENTINEL helps you understand what is happening beyond it.**
+
+---
+
+# BUILT TO COMPLEMENT YOUR EVE TOOLSET
+
+EVE pilots already use specialized third-party tools for fittings, markets, industry, killboards, navigation, fleet operations and many other jobs.
+
+### **SENTINEL is not designed to replace all of them.**
+
+It is designed to add a highly specialized **tactical intelligence and warning layer** to the tools you already trust.
+
+Run SENTINEL alongside EVE, comms, maps, killboards and other third-party tools — or use it on its own as your Tactical Intelligence HQ.
+
+It is built to operate as a persistent companion while you play: a dedicated window for answering the questions that matter before an event reaches your grid.
+
+### **KEEP YOUR TOOLS. ADD INTELLIGENCE.**
+
+> **Built to become the tactical window you keep open every time you undock.**
 
 ---
 
@@ -329,7 +394,7 @@ A route planner can tell you how to get there.
 
 ### **SENTINEL is being built to connect those signals into one tactical situation.**
 
-**See the threat. Know the distance. Watch the route. React before it reaches you.**
+**Protect yourself. Find the action. Know what is happening beyond your grid.**
 
 ---
 
@@ -340,6 +405,8 @@ A route planner can tell you how to get there.
 **SENTINEL // TACTICAL INTELLIGENCE**
 
 **Your Tactical Intelligence HQ for New Eden.**
+
+**KEEP YOUR TOOLS. ADD INTELLIGENCE.**
 
 <br>
 
