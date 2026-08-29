@@ -4,322 +4,332 @@
 
 # S E N T I N E L
 
-### TAKTISCHE INTELLIGENCE FÜR EVE ONLINE
+### TACTICAL INTELLIGENCE FÜR EVE ONLINE
 
-**Taktisches Lagebewusstsein in Echtzeit, hochspezialisierte Live-Intelligence-Überwachung und Map Gefahrenanalyse für New Eden.**
+**Deine Tactical Intelligence Zentrale für New Eden.**
+
+### **Built to be the most capable tactical intelligence platform for EVE Online.**
 
 <br>
 
-[🇬🇧 English](README.md) · **🇩🇪 Deutsch**
+**LIVE KILL MAP · UNIQUE TACTICAL LIVE MAP WARNING SYSTEM · MULTI-CHANNEL INTEL MAP**
 
 <br>
 
 ![Status](https://img.shields.io/badge/STATUS-AKTIVE%20ENTWICKLUNG-35c98b?style=flat-square)
 ![Kanal](https://img.shields.io/badge/KANAL-ALPHA-4da3d9?style=flat-square)
 ![Plattform](https://img.shields.io/badge/PLATTFORM-WINDOWS-737d8c?style=flat-square)
-![Version](https://img.shields.io/badge/VERSION-0.2.29--alpha-8b6fd9?style=flat-square)
+![Version](https://img.shields.io/badge/PUBLIC%20BUILD-0.2.29--alpha-8b6fd9?style=flat-square)
+
+<br>
+
+[🇬🇧 English](README.md) · **🇩🇪 Deutsch**
 
 </div>
 
 ---
 
-## SENTINEL
+## EIN TAKTISCHES LAGEBILD FÜR NEW EDEN
 
-**SENTINEL** ist eine taktische Intelligence- und Lagebewusstseins-Anwendung für **EVE Online**.
+**SENTINEL** ist eine Windows-basierte Tactical-Intelligence- und Situational-Awareness-Plattform für **EVE Online**.
 
-Entwickelt für Piloten, die relevante Informationen sofort sehen möchten, ohne während des Spielens mit unnötigem Datenrauschen überladen zu werden, verbindet SENTINEL Live-Intelligence, Kill-Aktivität, Charakterüberwachung, Systeminformationen und taktische Kartendaten in einer fokussierten Windows-Umgebung.
+Gebaut für Piloten, die nicht gleichzeitig Killboard, mehrere Intel-Channels, Route, Scout-Informationen und Universe Map im Kopf zusammenrechnen wollen, während sich eine Bedrohung bereits auf ihre Pocket zubewegt.
 
-Das Ziel ist einfach:
+SENTINEL verbindet **Live-Kill-Aktivität, mehrere Intel-Quellen, Scout-Kontext, Monitoring-Position, Jump-Distanzen, Routing-Kontext und native Warnungen** zu einem gemeinsamen operativen Lagebild.
 
-> **Sieh, was wichtig ist. Verstehe, was passiert. Reagiere, bevor es zum Problem wird.**
+> **SENTINEL zeigt Kills nicht einfach nur an. Es verwandelt Live-Events in verwertbare taktische Intelligence.**
 
-### Kernsysteme
-
-- **Live Tactical Map**
-- **Vollständige New-Eden-Navigationsdaten**
-- **Semantische Deep-Zoom-Karte**
-- **EVE Online SSO- & ESI-Integration**
-- **Kill-Intelligence in Echtzeit**
-- **zKillboard / R2Z2 Live Kill Feed**
-- **Intel-Channel-Überwachung**
-- **Erkennung mehrteiliger EVE-Charakternamen**
-- **System Threat Assessment**
-- **Charakter- & Scout-Tracking**
-- **Automatische MAIN-Charakterverfolgung**
-- **Manuelles taktisches Überwachungszentrum**
-- **Konfigurierbare Kill- & Intel-Reichweiten**
-- **System Dossiers & taktischer Kontext**
-- **Persistenter Tactical Live Feed**
-- **Native Windows-Warnsignale**
-- **Unabhängige Kill- & Intel-Audioprofile**
-- **Windows-System-Tray-Integration**
-- **Eigenständiger SENTINEL Windows Client**
-- **Sicheres One-Click-Update-System**
-- **SHA-256 Release-Verifizierung**
-- **Automatischer Neustart nach Updates**
+### **Gefahr sehen. Entfernung kennen. Route beobachten. Reagieren, bevor sie dich erreicht.**
 
 ---
 
-## Taktische Überwachung
+# DIE DREI KERNSYSTEME
 
-SENTINEL trennt bewusst den **Kartenfokus** vom tatsächlichen **taktischen Überwachungszentrum**.
+## 💀 LIVE KILL MAP
 
-Dadurch können Piloten New Eden frei erkunden, ohne versehentlich das System zu verändern, von dem aus taktische Reichweiten berechnet werden.
+### **Live-Kill-Aktivität in New Eden — analysiert, auf der Map dargestellt und konfigurierbar.**
+
+Eingehende Live-Kill-Aktivität wird gegen SENTINELs vollständigen New-Eden-Universe-Graph aufgelöst und direkt in den taktischen Kartenkontext übertragen.
+
+Statt einen Kill irgendwo in einem scrollenden Feed verschwinden zu lassen, kann SENTINEL dem Piloten zeigen:
+
+- **wo** das Ereignis passiert ist,
+- **wie viele Jumps entfernt** es vom aktiven Monitoring Origin liegt,
+- **wie frisch** das Ereignis ist,
+- **welcher Ship-/Kill-Kontext** relevant ist,
+- und **wie das System zur Route und zur aktuellen taktischen Lage gehört**.
+
+Die Live Kill Map ist für unterschiedliche Spielstile konfigurierbar. Dazu gehören unter anderem Kill-Reichweiten, Marker-Lifetime, Pulse-/Radar-Lifetime, Threat-Farben und separates Alert-Verhalten.
+
+Ob Mining, Hauling, Scouting, Roaming oder das Absichern einer Staging-Pocket: Entscheidend ist nicht nur *was ist gestorben?*
+
+Sondern:
+
+> **Wo ist es passiert, wie nah ist es und ist es für mich gerade relevant?**
+
+---
+
+## 🚨 UNIQUE TACTICAL LIVE MAP WARNING SYSTEM
+
+### **Dein Overview zeigt dir, was auf Grid ist. SENTINEL hilft dir zu erkennen, was auf dich zukommt.**
+
+Eines der prägenden Kernsysteme von SENTINEL ist das **Unique Tactical Live Map Warning System**.
+
+Live-Events werden nicht als isolierte Feed-Einträge behandelt. SENTINEL bewertet relevante Aktivität rund um den vom Piloten gewählten taktischen Monitoring Origin und macht daraus eine aktive Warning-Layer auf der Map.
+
+Das Warning System verbindet:
+
+- Live Map Indicators,
+- taktische Pulse und Radar-Persistenz,
+- konfigurierbare Jump-Ranges,
+- Monitoring-Origin-Awareness,
+- Route- und System-Kontext,
+- native Windows-Audio-Warnungen,
+- getrennte Kill- und Intel-Soundprofile,
+- und Threat-orientierte visuelle Darstellung.
+
+Ein Hostile-Kill mehrere Jumps entfernt sollte nicht bedeuten, dass der Pilot ständig eine externe Seite aktualisieren und die Route selbst im Kopf berechnen muss.
+
+**SENTINEL setzt das Event auf die Map, gibt ihm Entfernung und Kontext und warnt rund um die Position, die du tatsächlich überwachst.**
+
+> **Von rohen Kill-Events zu taktischem Lagebewusstsein.**
+
+---
+
+## 🛰️ MULTI-CHANNEL INTEL MAP
+
+### **Mehrere Intel-Channels. Eine Map. Ein taktisches Lagebild.**
+
+EVE-Intel lebt selten sauber in nur einem einzigen Channel.
+
+SENTINEL kann lokale EVE-Chatlog-Channels erkennen und lässt den Nutzer mehrere Intel-Channels gezielt für die Überwachung aktivieren. Eingehende Meldungen werden geparst, aufgelöst und New-Eden-Systemen zugeordnet, bevor sie Teil des taktischen Lagebilds werden.
+
+Die Intel-Layer kann unter anderem Kontext erkennen wie:
+
+- Sonnensysteme,
+- Charaktere,
+- mehrteilige und numerische Charakternamen,
+- Ship Types,
+- übliche Intel-Count-Notation,
+- Hostile-/Clear-Kontext,
+- Scout-Kontakte,
+- und Systemzuordnung.
+
+Statt mehrere Chatfenster parallel zu beobachten und die Lage selbst zusammenzubauen, bringt SENTINEL aktivierte Intel-Quellen in denselben **Map-, Distance- und Monitoring-Origin-Kontext**, den auch die restliche Plattform verwendet.
+
+### **Eine Map. Mehrere Intelligence-Quellen. Ein taktisches Lagebild.**
+
+---
+
+# VOM EVENT ZUR WARNUNG
+
+```text
+LIVE KILL / INTEL EVENT
+          ↓
+SYSTEM- & ENTITY-RESOLUTION
+          ↓
+DISTANZ ZUM MONITORING ORIGIN
+          ↓
+TAKTISCHE RELEVANZ
+          ↓
+LIVE MAP INDICATOR
+          ↓
+VISUELLE + NATIVE AUDIO-WARNUNG
+          ↓
+SYSTEM DOSSIER / ROUTE-KONTEXT
+```
+
+Genau diese Pipeline ist der Kern der SENTINEL-Idee: **Informationen sollen die Reaktionszeit verkürzen – nicht zusätzlichen Lärm erzeugen.**
+
+---
+
+# TACTICAL MONITORING ORIGIN
+
+SENTINEL trennt bewusst drei Dinge, die viele Tools miteinander vermischen:
+
+1. **Tatsächliche MAIN-Charakterposition**
+2. **Map Camera / Map Focus**
+3. **Tactical Monitoring Origin**
+
+Dadurch kann ein Pilot New Eden frei erkunden, ohne dabei unbemerkt die Position zu verändern, von der aus taktische Reichweiten und Warnungen berechnet werden.
 
 ### AUTO · MAIN
 
-Standardmäßig folgt SENTINEL automatisch dem aktuellen Sonnensystem des als **MAIN** festgelegten Charakters.
+Standardmäßig folgt SENTINEL automatisch dem aktuellen Sonnensystem des als MAIN festgelegten Charakters und berechnet die taktische Relevanz bei jedem Jump neu.
 
-Bewegt sich der Pilot durch New Eden, aktualisiert SENTINEL automatisch das Überwachungszentrum und berechnet alle relevanten taktischen Informationen vom neuen Standort aus neu.
+### MANUAL Monitoring
 
-Davon betroffen sind unter anderem:
+Ein Pilot kann bewusst ein anderes System überwachen — zum Beispiel eine Mining-Pocket, Moon-Operation, Staging Area, einen Chokepoint oder eine geplante Route — während die Map unabhängig davon frei bewegt werden kann.
 
-- Kill-Distanzen
-- Intel-Distanzen
-- Scout-Kontakte
-- Watchlist-Informationen
-- Gefahrenbewertung
-- Native Audio-Warnungen
-
-### MANUELLE Überwachung
-
-Jedes Sonnensystem kann zusätzlich als eigenes taktisches Überwachungszentrum ausgewählt werden.
-
-Dadurch kann ein Pilot beispielsweise ein anderes System, ein Mining-Gebiet, eine Staging-Position, eine Route oder einen strategischen Chokepoint überwachen, während er sich selbst an einem völlig anderen Ort in New Eden befindet.
-
-Mit **MAIN folgen** wird jederzeit sofort wieder die automatische Verfolgung des aktiven MAIN-Charakters aktiviert.
+Der aktive Monitoring Origin wird für Kill-, Intel-, Scout-, Watchlist-, Threat- und Native-Audio-Reichweiten verwendet.
 
 ---
 
-## Tactical Map
+# TACTICAL MAP & ROUTING CONTEXT
 
-Die SENTINEL Tactical Map ist als operatives Intelligence-Werkzeug konzipiert und nicht lediglich als statische Universumskarte.
+SENTINEL nutzt CCP-Universe-Daten, um einen vollständigen New-Eden-Stargate-Graphen und eine taktische Kartenumgebung aufzubauen.
 
-### Kartenfunktionen
+Aktuelle Map-Funktionen umfassen:
 
-- Cursor-zentriertes kontinuierliches Zoomen
-- Tiefer taktischer Zoom bis auf Systemebene
-- Semantische Detailstufen: Region → Konstellation → System
-- Permanente Systemnamen in operativen Zoomstufen
-- Interaktive Systemauswahl
-- Systemsuche
-- System Dossiers
-- Darstellung von Sprungdistanzen
-- Darstellung des Sicherheitsstatus
-- Taktische Ereignismarker
-- Threat-Kontext
-- Navigations- und Routeninformationen
-- Automatische MAIN-Standortverfolgung
-- Manuell auswählbares Überwachungszentrum
+- vollständigen New-Eden-Systemgraphen,
+- Region → Constellation → System Detailstufen,
+- cursor-zentrierten kontinuierlichen Deep Zoom,
+- interaktive Systeme und permanente operative Labels,
+- Security-Status-Darstellung,
+- Live Tactical Event Marker,
+- Jump-Distance-Berechnung,
+- Routing-Kontext,
+- System Dossiers,
+- MAIN-/Scout-/Monitoring-Origin-Kontext,
+- LOCAL / CONSTELLATION / REGION / NEW EDEN Camera Presets.
 
-Das Erkunden oder Fokussieren eines Systems auf der Karte verändert **nicht** automatisch das aktive taktische Überwachungszentrum.
-
-Erst wenn ein Pilot ausdrücklich **Überwachen / Monitor** auswählt, wird dieses System zur neuen taktischen Referenz.
+Die Map ist eine **operative Intelligence-Oberfläche** und nicht nur ein statischer Universe Viewer.
 
 ---
 
-## Live Intelligence
+# LIVE INTELLIGENCE FEED
 
-SENTINEL führt mehrere Intelligence-Quellen in einer gemeinsamen taktischen Ansicht zusammen.
+Der Live Intelligence Feed ist die Event-Timeline hinter der Tactical Map.
 
-Angezeigt werden können unter anderem:
+Events können unter anderem enthalten:
 
-- Schiffsverluste
-- Mining-Schiffsverluste
-- Meldungen aus Intel-Channels
-- Scout-Kontakte
-- Charakter-Intelligence
-- Watchlist-Aktivität
-- Charakterbewegungen
-- Aktueller MAIN-Standort
-- Veränderungen der taktischen Gefahrenlage
+- Live-Kill-Aktivität,
+- Mining-Ship-Losses,
+- Intel-Meldungen,
+- Scout-Kontakte,
+- Watchlist-Kontext,
+- Charakter-Intelligence,
+- und Threat-Veränderungen.
 
-Intel-Ereignisse werden normalisiert, aufgelöst und mit den Systemdaten von New Eden abgeglichen, bevor sie dargestellt werden.
-
-Der **Live Intelligence Feed** ist darauf ausgelegt, relevante taktische Ereignisse sichtbar zu machen, ohne interne SENTINEL-Standortinformationen mit echter Intelligence zu vermischen.
+Feed-Events und Kartenkontext bleiben miteinander verbunden, ohne dass die Map Camera bei jeder neuen Meldung automatisch springen muss.
 
 ---
 
-## Intel-Channel-Überwachung
+# SYSTEM DOSSIERS & THREAT CONTEXT
 
-SENTINEL kann ausgewählte lokale EVE-Online-Chatlogs überwachen und taktische Meldungen in Echtzeit interpretieren.
+Ausgewählte Systeme stellen taktischen Kontext und bewusste Aktionen bereit, unter anderem:
 
-Der Intelligence-Parser unterstützt:
+- zKill öffnen,
+- auf der Map fokussieren,
+- Route anzeigen,
+- und einen manuellen Monitoring Origin setzen.
 
-- Erkennung von Sonnensystemen
-- Mehrteilige EVE-Charakternamen
-- Numerische Bestandteile in Charakternamen
-- Filterung expliziter Intel-Anzahlangaben
-- Charakterauflösung
-- Taktische Systemzuordnung
-- Klassifizierung von Scout- und Hostile-Kontakten
-
-Es werden ausschließlich Channels verarbeitet, die der Nutzer ausdrücklich in SENTINEL aktiviert hat.
+Threat- und Risk-Indikatoren sind als **transparenter taktischer Kontext** gedacht und nicht als absolute Gewissheit.
 
 ---
 
-## Native Windows-Anwendung
+# NATIVE WINDOWS COMMAND CENTER
 
 SENTINEL läuft als eigenständige Windows-Anwendung und benötigt keinen normalen Browser-Workflow.
 
 ### Windows-Integration
 
 - Eigenständiges SENTINEL-Anwendungsfenster
+- Embedded WebView Interface
 - Native System-Tray-Integration
-- Hintergrundbetrieb
-- Native Windows-Audio-Warnungen
+- Background Monitoring
+- Native Windows Tactical Audio
+- Single-Instance-Verhalten
+- Saubere Restart-/Exit-Behandlung
 - Dedizierter lokaler SENTINEL-Dienst
-- Automatische Update-Prüfung beim Start
-- Saubere Neustartbehandlung
-- Eigenständiger Windows-Installer
-- Getrennte Anwendungs- und Laufzeitdaten
+- Per-User Windows Installer
+- Persistente lokale Runtime-Daten
 
-Lokale Einstellungen und Laufzeitdaten werden getrennt von den installierten Programmdateien gespeichert.
-
-Dadurch kann SENTINEL aktualisiert werden, ohne lokale Konfigurationen oder Benutzereinstellungen zu überschreiben.
+Das Schließen des sichtbaren Fensters muss nicht bedeuten, dass die taktische Überwachung endet.
 
 ---
 
-## Warnsystem
+# KONFIGURIERBARES HUD & OPERATOR EXPERIENCE
 
-SENTINEL besitzt ein natives Windows-Warnsystem, das dafür ausgelegt ist, auch dann zuverlässig zu funktionieren, wenn EVE Online im Vordergrund läuft.
+SENTINEL ist als taktische Workstation gedacht und nicht als Dashboard, das jedem Display ein starres Layout aufzwingt.
 
-Für Kill- und Intel-Warnungen können unterschiedliche Audioprofile verwendet werden.
+Aktuelle Interface-Systeme umfassen:
 
-### Verfügbare Warnprofile
-
-- **Sentinel Pulse**
-- **Command Alert**
-- **Scanner Ping**
-- **Deep Warning**
-
-Die Warnreichweiten sind direkt mit den konfigurierten taktischen Sprungreichweiten verbunden.
-
-Das aktuell aktive Überwachungszentrum bestimmt somit, welche Kill-, Intel- und taktischen Ereignisse für SENTINEL relevant sind.
+- Dark / Light / OLED Themes
+- Deutsche / englische UI
+- Persistentes **100 / 110 / 120% Side-HUD Scaling**
+- Map-Rendering bleibt unabhängig vom HUD Scaling
+- Konfigurierbare Kill- und Intel-Ranges
+- Konfigurierbare Tactical Marker und Persistence
+- Eigene Threat-Farben
+- Separate Kill-/Intel-Audioprofile
+- Tactical System Dossiers
+- Persistenter Monitoring Origin
 
 ---
 
-## Sichere One-Click-Updates
+# EVE ONLINE INTEGRATION
 
-SENTINEL besitzt eine eigene öffentliche Release- und Update-Infrastruktur.
+SENTINEL verbindet derzeit mehrere EVE-bezogene Systeme, darunter:
 
-Beim Start prüft SENTINEL automatisch, ob über den öffentlichen Release-Kanal eine neuere Version verfügbar ist.
+- EVE Online SSO Authorization Code + PKCE
+- ESI Character- und Location-Monitoring
+- MAIN- und Scout-Charakterrollen
+- Lokales EVE-Chatlog-Monitoring
+- R2Z2 / zKillboard Live-Kill-Verarbeitung
+- CCP Static Data Export Universe-Daten
+- Offizielle EVE Image Service Assets
+- Local Scan Workflow
 
-Ist die installierte Version aktuell, bestätigt SENTINEL dies direkt auf dem Bildschirm.
+SENTINEL automatisiert **keine Gameplay-Eingaben**.
 
-Wird eine neuere Version gefunden, kann der Nutzer das Update direkt aus SENTINEL heraus starten.
+Das Ziel ist, verfügbare taktische Informationen schneller verständlich und nutzbar zu machen.
 
-### Update-Ablauf
+---
+
+# SICHERE RELEASE-AUSLIEFERUNG
+
+Öffentliche Windows Builds werden über den dedizierten **SENTINEL Release Channel** ausgeliefert.
+
+Der aktuelle Update-Pfad umfasst:
 
 `Update erkannt`
-→ `Installer wird heruntergeladen`
-→ `SHA-256 wird geprüft`
+→ `Installer heruntergeladen`
+→ `SHA-256 verifiziert`
 → `SENTINEL wird sauber beendet`
-→ `Installer wird gestartet`
-→ `Update wird installiert`
-→ `SENTINEL startet automatisch neu`
+→ `Installer läuft`
+→ `Update installiert`
+→ `SENTINEL startet neu`
 
-Ein heruntergeladener Installer wird niemals ausgeführt, bevor seine SHA-256-Prüfsumme exakt mit dem Wert übereinstimmt, der über die SENTINEL Release-Infrastruktur veröffentlicht wurde.
-
-Updates werden außerdem niemals unbeaufsichtigt installiert.
-
-Der Nutzer muss den Update-Vorgang ausdrücklich selbst starten.
-
-### Update-Validierung
-
-Der vollständige reale Update-Pfad wurde erfolgreich getestet:
-
-**SENTINEL 0.2.28-alpha → SENTINEL 0.2.29-alpha**
-
-einschließlich:
-
-- Erkennung des öffentlichen Releases
-- Update-Benachrichtigung
-- Installer-Download
-- SHA-256-Verifizierung
-- Installation
-- Automatisches Beenden
-- Automatischer Neustart
-- Verifizierung der neuen Version nach dem Update
+Updates werden nur nach ausdrücklicher Nutzeraktion installiert. Heruntergeladene Installer müssen vor der Ausführung die erwartete Integritätsprüfung bestehen.
 
 ---
 
-## Entwicklungsstatus
+# AKTUELLER ENTWICKLUNGSSTATUS
 
-SENTINEL befindet sich derzeit in **aktiver Alpha-Entwicklung**.
-
-**Aktueller Release-Kanal:** `ALPHA`
-
-**Aktuelle Version:** `0.2.29-alpha`
-
-Der Schwerpunkt der Entwicklung liegt auf:
-
-`Zuverlässigkeit` · `Klarheit` · `Performance` · `Taktischem Lagebewusstsein` · `Sicherheit`
-
-Öffentliche Alpha-Releases und sichere In-App-Updates stehen inzwischen zur Verfügung.
-
-Die Dokumentation wird kontinuierlich erweitert, während SENTINEL auf breitere öffentliche Tests vorbereitet wird.
-
----
-
-## Projektstruktur
-
-| Ressource | Status |
+| | |
 |---|---|
-| SENTINEL Application | 🟢 Aktive Entwicklung |
-| Windows Client | 🟢 Aktive Entwicklung |
-| Tactical Intelligence | 🟢 Betriebsbereit |
-| Tactical Map | 🟢 Betriebsbereit |
-| Öffentliche Alpha-Releases | 🟢 Aktiv |
-| Automatische Updates | 🟢 Betriebsbereit |
-| SHA-256 Release-Verifizierung | 🟢 Betriebsbereit |
-| Dokumentation | 🟡 In Vorbereitung |
-| EVE Community Listing | ⚪ Zukünftiges Release-Ziel |
+| **Projekt** | SENTINEL // Tactical Intelligence |
+| **Developer** | Robocapa |
+| **Plattform** | Windows x64 |
+| **Channel** | Alpha / pre-release |
+| **Letzter öffentlicher Build** | `0.2.29-alpha` |
+| **Entwicklung** | Aktiv |
+| **Source Code** | Privat |
+
+Aktuelle Schwerpunkte sind Tactical Intelligence, Interface Usability, Reliability, Security und Release Trust.
+
+Öffentliche Entwicklungshistorie und Windows Builds werden über das dedizierte SENTINEL Release Repository veröffentlicht.
+
+### **→ [SENTINEL Releases & Development Log](https://github.com/Robocapa-eve/sentinel-releases)**
 
 ---
 
-## Aktueller Meilenstein
-
-### SENTINEL 0.2.29-alpha
-
-Der aktuelle Entwicklungsmeilenstein führt die vollständige SENTINEL Update-Infrastruktur ein und baut gleichzeitig auf den taktischen Monitoring- und Kartensystemen vorheriger Alpha-Versionen auf.
-
-### Highlights
-
-- Sichere öffentliche Release-Erkennung
-- Automatische Update-Prüfung beim Start
-- Deutsche und englische Update-Benachrichtigungen
-- Manuelle Update-Prüfung
-- One-Click-Installer-Download
-- SHA-256-Verifizierung
-- Automatisierte Update-Installation
-- Automatischer SENTINEL-Neustart
-- Automatische MAIN-Charakterüberwachung
-- Manuell auswählbare taktische Überwachungszentren
-- Cursor-zentrierter semantischer New-Eden-Zoom
-- Tiefer taktischer Kartenzoom
-- Permanente Systemnamen in operativen Zoomstufen
-- Verbesserte System Dossiers
-- Verbesserte Behandlung des Live Intelligence Feeds
-- Verbesserte Erkennung von EVE-Charakternamen
-
----
-
-## Entwicklungsphilosophie
-
-SENTINEL basiert auf einem einfachen Grundsatz:
+# DAS SENTINEL-PRINZIP
 
 > **Informationen sollen die Reaktionszeit verkürzen – nicht zusätzlichen Lärm erzeugen.**
 
-Funktionen werden deshalb konsequent für den praktischen Einsatz während des aktiven Spielens von EVE Online entwickelt:
+Ein normales Killboard kann dir sagen, dass etwas gestorben ist.
 
-- Wichtige Informationen zuerst
-- Möglichst wenig unnötige Interaktion
-- Klarer taktischer Kontext
-- Gezielte Warnungen statt dauerhaftem Informationsrauschen
-- Vorhersehbare Bedienung
-- Zuverlässiger Hintergrundbetrieb
-- Sichere Update-Verarbeitung
+Ein Intel-Channel kann dir sagen, dass jemand etwas gesehen hat.
+
+Eine Map kann dir sagen, wo ein System liegt.
+
+Ein Route Planner kann dir sagen, wie du dorthin kommst.
+
+### **SENTINEL wird gebaut, um diese Signale zu einer taktischen Lage zu verbinden.**
+
+**Gefahr sehen. Entfernung kennen. Route beobachten. Reagieren, bevor sie dich erreicht.**
 
 ---
 
@@ -327,9 +337,9 @@ Funktionen werden deshalb konsequent für den praktischen Einsatz während des a
 
 ### Entwickelt & gepflegt von Robocapa
 
-**SENTINEL · Tactical Intelligence**
+**SENTINEL // TACTICAL INTELLIGENCE**
 
-*Sieh, was wichtig ist. Verstehe, was passiert.*
+**Deine Tactical Intelligence Zentrale für New Eden.**
 
 <br>
 
@@ -338,8 +348,8 @@ Funktionen werden deshalb konsequent für den praktischen Einsatz während des a
 <br><br>
 
 <sub>
-SENTINEL ist eine Drittanbieter-Anwendung für EVE Online und steht in keiner Verbindung zu CCP Games und wird nicht von CCP Games unterstützt oder empfohlen.<br>
-EVE Online sowie alle dazugehörigen Marken und Warenzeichen sind Eigentum von CCP hf.
+SENTINEL ist eine unabhängige Drittanbieter-Anwendung für EVE Online und steht in keiner Verbindung zu CCP Games und wird nicht von CCP Games unterstützt oder empfohlen.<br>
+EVE Online und zugehörige Marken sind Eigentum von CCP hf.
 </sub>
 
 </div>
