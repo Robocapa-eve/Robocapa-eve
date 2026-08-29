@@ -33,13 +33,29 @@
 
 **SENTINEL** ist eine Windows-basierte Tactical-Intelligence- und Situational-Awareness-Plattform für **EVE Online**.
 
-Gebaut für Piloten, die nicht gleichzeitig Killboard, mehrere Intel-Channels, Route, Scout-Informationen und Universe Map im Kopf zusammenrechnen wollen, während sich eine Bedrohung bereits auf ihre Pocket zubewegt.
+Gebaut für Piloten, die nicht gleichzeitig Killboard, mehrere Intel-Channels, Route, Scout-Informationen und Universe Map im Kopf zusammenrechnen wollen, während New Eden um sie herum weiterlebt.
 
 SENTINEL verbindet **Live-Kill-Aktivität, mehrere Intel-Quellen, Scout-Kontext, Monitoring-Position, Jump-Distanzen, Routing-Kontext und native Warnungen** zu einem gemeinsamen operativen Lagebild.
 
 > **SENTINEL zeigt Kills nicht einfach nur an. Es verwandelt Live-Events in verwertbare taktische Intelligence.**
 
 ### **Gefahr sehen. Entfernung kennen. Route beobachten. Reagieren, bevor sie dich erreicht.**
+
+---
+
+# FINDE DIE GEFAHR. FINDE DEN CONTENT.
+
+### **SENTINEL zeigt dir nicht nur, was du meiden solltest – sondern auch, wo New Eden gerade lebt.**
+
+Live-Kill-Aktivität aus New Eden macht entstehende Hotspots und aktive Gebiete direkt auf der Tactical Map sichtbar. Dasselbe operative Lagebild kann defensiv genutzt werden, um Mining-Operationen, Hauling-Routen, PvE-Pockets oder Staging-Systeme zu schützen — oder offensiv, um Action, Roaming-Ziele und den nächsten entstehenden Content zu finden.
+
+SENTINEL ist deshalb nicht für nur einen Spielstil gebaut. Es kann **Minern, Haulern, PvE-Piloten, Explorern, Scouts, Huntern, Roamern, Fleets und Corporations** helfen, weil die entscheidenden Fragen dieselben bleiben:
+
+> **Was passiert gerade, wo passiert es, wie weit ist es entfernt – und was bedeutet es für mich?**
+
+### **Dieselbe Intelligence, die einem Miner zeigt, wo er besser nicht hinfliegt, kann einem Roamer zeigen, wo er als Nächstes hinfliegen sollte.**
+
+**Gefahr meiden. Action finden. Den Raum um dich herum verstehen.**
 
 ---
 
@@ -61,6 +77,8 @@ Statt einen Kill irgendwo in einem scrollenden Feed verschwinden zu lassen, kann
 
 Die Live Kill Map ist für unterschiedliche Spielstile konfigurierbar. Dazu gehören unter anderem Kill-Reichweiten, Marker-Lifetime, Pulse-/Radar-Lifetime, Threat-Farben und separates Alert-Verhalten.
 
+Damit kann die Map dir zeigen, wie sich eine gefährliche Pocket rund um dich entwickelt — oder wo in New Eden gerade Aktivität und potenzieller Content entstehen.
+
 Ob Mining, Hauling, Scouting, Roaming oder das Absichern einer Staging-Pocket: Entscheidend ist nicht nur *was ist gestorben?*
 
 Sondern:
@@ -71,7 +89,7 @@ Sondern:
 
 ## 🚨 UNIQUE TACTICAL LIVE MAP WARNING SYSTEM
 
-### **Dein Overview zeigt dir, was auf Grid ist. SENTINEL hilft dir zu erkennen, was auf dich zukommt.**
+### **Dein Overview zeigt dir, was auf Grid ist. SENTINEL hilft dir zu verstehen, was dahinter passiert.**
 
 Eines der prägenden Kernsysteme von SENTINEL ist das **Unique Tactical Live Map Warning System**.
 
@@ -91,6 +109,8 @@ Das Warning System verbindet:
 Ein Hostile-Kill mehrere Jumps entfernt sollte nicht bedeuten, dass der Pilot ständig eine externe Seite aktualisieren und die Route selbst im Kopf berechnen muss.
 
 **SENTINEL setzt das Event auf die Map, gibt ihm Entfernung und Kontext und warnt rund um die Position, die du tatsächlich überwachst.**
+
+Defensiv bedeutet das frühere Awareness für Gefahren. Offensiv kann dieselbe Live Map einem Hunter oder Roamer zeigen, wo Aktivität entsteht und wo der nächste Fight zu finden sein könnte.
 
 > **Von rohen Kill-Events zu taktischem Lagebewusstsein.**
 
@@ -140,6 +160,51 @@ SYSTEM DOSSIER / ROUTE-KONTEXT
 ```
 
 Genau diese Pipeline ist der Kern der SENTINEL-Idee: **Informationen sollen die Reaktionszeit verkürzen – nicht zusätzlichen Lärm erzeugen.**
+
+---
+
+# EINE SPEZIALISIERTE MISSION
+
+Für EVE Online existieren hunderte spezialisierte Tools.
+
+Manche berechnen Fits.  
+Manche analysieren Märkte.  
+Manche planen Industrie.  
+Manche zeigen Killboards.  
+Manche liefern Karten.
+
+SENTINEL konzentriert sich bewusst auf eine andere Ebene des EVE-Spielens:
+
+### **Taktisches Lagebewusstsein, bevor die Situation auf deinem Grid ankommt.**
+
+Wer bewegt sich?  
+Was stirbt gerade?  
+Wo entwickelt sich Aktivität?  
+Wie weit ist sie entfernt?  
+Kommt sie in Richtung meines Gebiets?  
+Ist das Gefahr — oder ist das genau der Content, den ich suche?
+
+**SENTINEL wurde gebaut, um dir diese Fragen schneller zu beantworten.**
+
+> **Dein Overview zeigt dir, was auf Grid passiert. SENTINEL hilft dir zu verstehen, was dahinter passiert.**
+
+---
+
+# GEBAUT, UM DEIN EVE-TOOLSET ZU ERGÄNZEN
+
+EVE-Piloten nutzen bereits spezialisierte Drittanbieter-Tools für Fits, Märkte, Industrie, Killboards, Navigation, Fleet Operations und viele andere Aufgaben.
+
+### **SENTINEL wurde nicht entwickelt, um sie alle zu ersetzen.**
+
+Es ergänzt dein bestehendes Setup um eine hochspezialisierte **Tactical-Intelligence- und Warning-Layer**.
+
+Lass SENTINEL parallel zu EVE, Comms, Maps, Killboards und anderen Third-Party-Tools laufen — oder nutze es eigenständig als deine Tactical Intelligence Zentrale.
+
+SENTINEL ist als persistenter Begleiter beim Spielen gedacht: ein eigenes Fenster für die Fragen, die wichtig werden, bevor ein Ereignis auf deinem Grid ankommt.
+
+### **KEEP YOUR TOOLS. ADD INTELLIGENCE.**
+
+> **Gebaut, um zu dem taktischen Fenster zu werden, das bei jedem Undock einfach mitläuft.**
 
 ---
 
@@ -329,7 +394,7 @@ Ein Route Planner kann dir sagen, wie du dorthin kommst.
 
 ### **SENTINEL wird gebaut, um diese Signale zu einer taktischen Lage zu verbinden.**
 
-**Gefahr sehen. Entfernung kennen. Route beobachten. Reagieren, bevor sie dich erreicht.**
+**Schütze dich. Finde die Action. Verstehe, was jenseits deines Grids passiert.**
 
 ---
 
@@ -340,6 +405,8 @@ Ein Route Planner kann dir sagen, wie du dorthin kommst.
 **SENTINEL // TACTICAL INTELLIGENCE**
 
 **Deine Tactical Intelligence Zentrale für New Eden.**
+
+**KEEP YOUR TOOLS. ADD INTELLIGENCE.**
 
 <br>
 
