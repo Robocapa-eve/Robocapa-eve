@@ -46,6 +46,34 @@ The current development line is now adding something deeper behind that interfac
 
 ---
 
+# ⚡ LATEST SENTINEL ENGINEERING SPRINT
+
+### **31 August → 1 September 2026**
+
+Two calendar days produced the largest architecture jump in SENTINEL so far.
+
+The sprint started with the public `0.2.30-alpha` Tactical Intelligence System and continued into a production-backed `0.3.0-alpha` intelligence foundation:
+
+- 🛰️ dedicated HTTPS/WSS Live Relay
+- 🧠 PostgreSQL 16-backed Tactical Memory
+- 🔄 completed-day reconciliation and safe missing-ID repair
+- 📦 **13,962 public killmails** durably processed by a bounded historical production canary
+- 🕒 rolling **90-day UTC** Memory retention
+- 🛡️ verified PostgreSQL backup and disposable restore drills
+- 🧠 Tactical Intelligence Brain **1A** for observed pilot behavior
+- 🧠 Tactical Intelligence Brain **1B** for systems, corporations and alliances
+- 🔐 hardened security, CI and repository-integrity automation
+
+The final combined Windows/relay repository gate completed with **224 tests passed** on Windows / Python 3.12. The dedicated PostgreSQL-backed Tactical Intelligence 1B line passed **71 tests**.
+
+At the latest 1B production checkpoint, the bounded Memory contained roughly **480k canonical kills**, **2.0M attacker rows** and **7.8M item rows**.
+
+### → [Read the full public engineering chronicle](https://github.com/Robocapa-eve/sentinel-releases/blob/main/CHANGELOG.md)
+
+`0.3.0-alpha` remains a development line. The downloadable Windows build deliberately remains `0.2.30-alpha` until a real 0.3.0 installer has been built, tested, published and verified.
+
+---
+
 # 🛰️ WHAT SENTINEL IS BECOMING
 
 SENTINEL is not another static map and not another killboard.
