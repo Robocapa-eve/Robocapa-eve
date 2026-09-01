@@ -13,7 +13,8 @@
 ![Status](https://img.shields.io/badge/STATUS-AKTIVE%20ENTWICKLUNG-35c98b?style=flat-square)
 ![Kanal](https://img.shields.io/badge/KANAL-ALPHA-4da3d9?style=flat-square)
 ![Plattform](https://img.shields.io/badge/PLATTFORM-WINDOWS-737d8c?style=flat-square)
-![Version](https://img.shields.io/badge/PUBLIC%20BUILD-0.2.30--alpha-8b6fd9?style=flat-square)
+![Public](https://img.shields.io/badge/PUBLIC%20BUILD-0.2.30--alpha-8b6fd9?style=flat-square)
+![Development](https://img.shields.io/badge/DEV%20LINE-0.3.0--alpha-d86f45?style=flat-square)
 
 <br>
 
@@ -27,109 +28,157 @@
   </a>
 </p>
 
-<p align="center">
-  <sub>SENTINEL Tactical-Intelligence-Übersicht · Zum Vergrößern anklicken</sub>
-</p>
-
 ---
 
 ## 👋 Robocapa
 
 Ich bin der Entwickler hinter **SENTINEL**, einer unabhängigen Tactical-Intelligence-Plattform für **EVE Online**.
 
-Das Projekt folgt einer einfachen Idee:
+Das Projekt folgt einer einfachen Regel:
 
 > **Informationen sollen die Reaktionszeit verkürzen – nicht zusätzlichen Lärm erzeugen.**
 
-SENTINEL verbindet Live-Ereignisse aus New Eden zu einem gemeinsamen operativen Lagebild aus **Live-Kill-Aktivität, Intel-Channels, Tactical-Map-Kontext, Monitoring Origin, Jump-Distanzen, Scout-/Watchlist-Informationen, Route Awareness und nativen Windows-Warnungen**.
+SENTINEL verbindet Live-Ereignisse aus New Eden mit Map-Kontext, Monitoring Origin, Jump-Distanzen, Intel-Channels, Scouts, Local Scan, Route-Kontext und nativen Windows-Warnungen.
 
-### **Gefahr sehen. Entfernung kennen. Route beobachten. Reagieren, bevor sie dich erreicht.**
+Die aktuelle Entwicklungslinie ergänzt hinter dieser Oberfläche jetzt etwas deutlich Tieferes: **begrenztes Tactical Memory und ein erklärbares Intelligence Brain**.
+
+### **Gefahr sehen. Entfernung kennen. Muster verstehen. Früher reagieren.**
 
 ---
 
-# 🛰️ WOFÜR SENTINEL GEBAUT WIRD
+# 🛰️ WAS SENTINEL WIRD
 
 SENTINEL ist keine weitere statische Map und kein weiteres Killboard.
 
-Es ist als persistenter taktischer Begleiter für Piloten gedacht, die verstehen wollen, **was um sie herum passiert, wie weit es entfernt ist und ob es relevant wird**.
+Es wird als persistenter taktischer Begleiter für Piloten entwickelt, die verstehen wollen:
 
-Dieselbe Intelligence kann defensiv eine Mining-Operation, Hauling-Route, PvE-Pocket oder ein Staging-System schützen — oder offensiv aktive Systeme, entstehende Hotspots und möglichen Content sichtbar machen.
+- was gerade passiert
+- wie weit es entfernt ist
+- ob es für die eigene Operation relevant ist
+- ob aktuelles Verhalten ein nützliches Muster erkennen lässt
+
+Dieselbe Intelligence kann eine Mining-Operation, Hauling-Route, PvE-Pocket oder ein Staging-System schützen — oder Hunters, Scouts und Roamern helfen, aktiven Raum zu finden.
 
 **Gebaut für Miner, Hauler, PvE-Piloten, Explorer, Scouts, Hunter, Roamer, Fleets und Corporations.**
 
 ---
 
-# ⚡ KERNSYSTEME
+# ⚡ AKTUELLE OPERATOR-SYSTEME
 
 ### 💀 LIVE KILL MAP
-Live-Kill-Aktivität aus New Eden wird gegen den Universe Graph aufgelöst und direkt mit Entfernung, Aktualität und Event-Kontext auf der Tactical Map dargestellt.
+Öffentliche Kill-Aktivität wird gegen den New-Eden-Universe-Graph aufgelöst und in Map-/Distance-Kontext gesetzt.
 
 ### 🚨 TACTICAL LIVE MAP WARNING SYSTEM
-Relevante Aktivität wird zu einer aktiven Warning-Layer rund um das tatsächlich überwachte System — mit konfigurierbaren Ranges, Tactical Markern, Persistence und nativen Audio-Warnungen.
+Relevante Aktivität wird zu einer aktiven Warning-Layer rund um das tatsächlich überwachte System.
 
 ### 🛰️ MULTI-CHANNEL INTEL MAP
-Mehrere aktivierte Intel-Channels werden geparst und in denselben Map-, Distance- und Monitoring-Origin-Kontext eingebunden wie die übrigen SENTINEL-Systeme.
+Vom Benutzer aktivierte Intel-Channels fließen in denselben Tactical-Map- und Monitoring-Kontext ein.
 
-### 🧭 TACTICAL MONITORING ORIGIN
-AUTO · MAIN folgt dem festgelegten MAIN-Charakter. MANUAL Monitoring erlaubt es, bewusst ein anderes System zu überwachen und die Map trotzdem frei zu erkunden.
+### 🧭 MONITORING ORIGIN
+AUTO · MAIN kann dem festgelegten MAIN-Charakter folgen; MANUAL Monitoring kann ein anderes System beobachten, während die Map unabhängig erkundet wird.
 
 ### 📍 SYSTEM TOOLTIPS & ROUTE-KONTEXT
-Systeme stellen taktischen Kontext, Live-Aktivität, Routing-Informationen und gezielte Aktionen bereit, ohne die Map Camera ständig zu versetzen.
+Systeme zeigen taktische Historie und gezielte Map-/Route-Aktionen, ohne die Kamera ständig automatisch zu bewegen.
 
 ---
 
-# 🖥️ WINDOWS TACTICAL COMMAND CENTER
+# 🧠 0.3.0 ENTWICKLUNGSLINIE
 
-SENTINEL läuft als eigenständige Windows-Anwendung und umfasst unter anderem:
+Die größte aktuelle Veränderung passiert hinter der UI.
 
-- native Windows-Anwendung + System Tray
-- EVE SSO / ESI Character- und Location-Integration
-- vollständigen New-Eden-Stargate-Graphen
-- Local Scan Workflow
-- persistenten Live Intelligence Feed
-- MAIN- und Scout-Charakterrollen
-- konfigurierbare Kill-/Intel-Ranges und Alertprofile
+## Dedizierter Live Relay
+
+SENTINEL betreibt jetzt einen eigenen HTTPS/WSS-Relay unter `relay.sentinel-eve.de` mit sequenzieller öffentlicher R2Z2-Verarbeitung, Reconnect/Resume und begrenzter Live-Auslieferung.
+
+Direct R2Z2 bleibt im Desktop weiterhin die autoritative Live-Quelle, während der Relay als zukünftiger Kandidatenpfad validiert wird.
+
+## Rollierendes 90-Tage Tactical Memory
+
+Aktuelle öffentliche Combat-Beobachtungen können nun in einem begrenzten PostgreSQL-Memory gespeichert werden.
+
+Der Produktionshorizont ist bewusst auf **90 Tage** begrenzt, damit SENTINEL aktuelle taktische Muster erkennen kann, ohne zu einem kostenintensiven dauerhaften Archiv zu werden.
+
+## Tactical Intelligence Brain 1A
+
+Die Pilotanalyse kann beobachtete Muster ableiten zu:
+
+- Ship- und Weapon-Nutzung
+- Target Preferences
+- wiederkehrenden Co-Attacker-Beziehungen
+- historischen Loss-Fit-Familien
+- Evidence, Recency und Confidence
+
+## Tactical Intelligence Brain 1B
+
+Das Brain erstellt jetzt außerdem aktuelle Profile für:
+
+- Sonnensysteme
+- Corporations
+- Alliances
+- Attacker-/Victim-Hull-Muster
+- UTC-Aktivitätsverteilungen
+- wiederkehrende gemeinsam beobachtete Organisationen
+
+SENTINEL hält Inference bewusst ehrlich: historische Fits werden nicht als aktuelle Fits bezeichnet, Co-Attacker nicht automatisch als Fleet Members und Route-/Roam-Rekonstruktion bleibt eine eigene spätere Phase.
+
+---
+
+# 🖥️ WINDOWS-ANWENDUNG
+
+Der aktuelle öffentliche Build enthält bereits:
+
+- MAP INTEL Profile
+- Tactical Feed Depth
+- Tactical Intelligence Feed
+- KILL HEAT
+- Tactical Picture
+- angepinnte System Tooltips
+- SYSTEM VERLAUF
+- Local Scan
+- MAIN-/Scout-Rollen
+- EVE SSO / ESI
+- native Windows Alerts
 - Dark / Light / OLED Themes
 - deutsche und englische UI
-- verifizierte One-Click-Updates mit SHA-256-Integritätsprüfung
+- verifizierte One-Click-Updates
 
 SENTINEL unterstützt Gameplay-Entscheidungen und **automatisiert keine Gameplay-Eingaben**.
 
 ---
 
-# 🚀 AKTUELLER ÖFFENTLICHER BUILD
+# 🚀 PROJEKTSTATUS
 
 | | |
 |---|---|
 | **Projekt** | SENTINEL // Tactical Intelligence |
 | **Entwickler** | Robocapa |
-| **Letzter öffentlicher Build** | `0.2.30-alpha` |
+| **Letzter öffentlicher Windows-Build** | `0.2.30-alpha` |
+| **Aktuelle Entwicklungslinie** | `0.3.0-alpha` |
 | **Channel** | Alpha / pre-release |
 | **Plattform** | Windows x64 |
-| **Entwicklung** | Aktiv |
 | **Source Code** | Privat |
 
 ### → [SENTINEL Releases](https://github.com/Robocapa-eve/sentinel-releases/releases)
-### → [Öffentlicher Development Log / Changelog](https://github.com/Robocapa-eve/sentinel-releases/blob/main/CHANGELOG.md)
-### → [SENTINEL Release Repository](https://github.com/Robocapa-eve/sentinel-releases)
+### → [Öffentlicher Development Log](https://github.com/Robocapa-eve/sentinel-releases/blob/main/CHANGELOG.md)
+### → [Public Release Repository](https://github.com/Robocapa-eve/sentinel-releases)
+
+Der öffentliche Updater bleibt auf **0.2.30-alpha**, bis ein echter 0.3.0-Windows-Installer existiert und verifiziert wurde.
 
 ---
 
-# 🔭 ENTWICKLUNGSRICHTUNG
+# 🔭 NÄCHSTE RICHTUNG
 
-Die aktuelle Entwicklung erweitert die Tactical-Intelligence-Layer und hält die Bedienung gleichzeitig schnell, nachvollziehbar und vorhersehbar.
+Die aktuelle Entwicklung bewegt sich in Richtung:
 
-Zu den jüngsten Arbeiten gehören:
+- UI-Integration für das 90-Tage Tactical Memory
+- Pilot-/System-/Corporation-/Alliance-Intelligence-Ansichten
+- Roam- und Movement-Episode-Inference mit expliziter Confidence
+- wahrscheinliche Route-Rekonstruktion
+- Content Hotspots / Hostile Pressure / Route Threat
+- Watchlist- und Ganker-Group-Intelligence
+- breiteres Public-Alpha-Testing
 
-- MAP INTEL Tactical Profiles
-- konfigurierbare 15J / 25J / 50J Feed Depth
-- breiterer Tactical Intelligence Feed Kontext
-- KILL HEAT Live-Activity-Darstellung
-- Tactical Picture States
-- angepinnte System Tooltips
-- SYSTEM VERLAUF History
-- Local Scan Verbesserungen
-- Map-UX- und Reliability-Hardening
+Für die Infrastruktur gilt außerdem eine **GitHub-Zero-Cost-Regel**: Produktionsdatenbank-Speicher wird nicht auf kostenpflichtige GitHub Artifacts, Packages oder Codespaces aufgebaut.
 
 ---
 
