@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="assets/sentinel-logo.png" width="50" alt="SENTINEL mark">
+<img src="assets/sentinel-logo.png" width="54" alt="SENTINEL mark">
 
 # SENTINEL // TACTICAL INTELLIGENCE
 
-### Tactical Intelligence for EVE Online
+### A live intelligence system for EVE Online
 
-**Private development. Evidence first. Built for New Eden.**
+**Live kills in range. Intel-channel activity on the map. Pilot intelligence underneath.**
 
 `0.4.0-alpha` · `CLOSED DEVELOPMENT` · `WINDOWS x64`
 
@@ -16,100 +16,87 @@
 
 ---
 
-## <img src="assets/sentinel-logo.png" width="18" alt=""> ROBOCAPA
+## <img src="assets/sentinel-logo.png" width="18" alt=""> ROBOCAPA // ENGINEERING NEW EDEN INTELLIGENCE
 
-I develop **SENTINEL**, an independent tactical-intelligence application for **EVE Online**.
+I develop **SENTINEL**, an independent tactical-intelligence platform for **EVE Online**.
 
-The project is built around one principle:
+What started as a practical question — *can I see relevant kills and Intel reports around me directly on a live map?* — has grown into a much larger system.
 
-> **Information should reduce reaction time — not create more noise.**
+Today, the map is only the visible surface.
 
-SENTINEL is not intended to be another static map or another killboard. The goal is a persistent tactical command surface that combines live public observations, New Eden context, user-supplied intelligence and bounded historical evidence without pretending that old data is current truth.
+SENTINEL receives live public combat observations and explicitly configured Intel-channel evidence, places them into real New Eden topology and then correlates those signals against the tactical evidence already available to the system.
 
-The project is currently in **closed private development**. Source code, release assets and active development remain private until the product is ready for deliberately granted access.
+For every observed pilot, corporation, alliance and system with sufficient evidence, SENTINEL can expose context such as:
+
+- activity windows and recurring systems;
+- observed hull and weapon usage;
+- historical fitting families;
+- recurring co-attackers and gang tendencies;
+- roaming/corridor evidence and movement episodes;
+- target preferences and behavior patterns;
+- current route exposure and safer-route context;
+- system, corporation and alliance activity baselines;
+- live events viewed against bounded Tactical Memory.
+
+> **The live event is only the beginning. SENTINEL tries to explain the tactical picture behind it.**
+
+Historical evidence is never silently presented as current truth. A historical fit is not a current fit. A reconstructed corridor is not a proven travel path. Recurring co-attackers are not automatically fleet members.
+
+That distinction is part of the product, not a disclaimer bolted on afterwards.
 
 ---
 
-## <img src="assets/sentinel-logo.png" width="18" alt=""> CURRENT SIGNAL // 0.4.0-alpha
+## <img src="assets/sentinel-logo.png" width="18" alt=""> LIVE MAP // THE FRONT LINE
 
-The active `0.4.0-alpha` line is the largest SENTINEL development cycle so far.
+### LIVE KILLS IN RANGE
 
-### MAP 2.0
+Accepted current-session public combat events appear in the tactical map context around the operator. The same accepted event IDs feed Map, Live Feed, Heat, Tactical Picture and Kill Bursts.
 
-One continuous New Eden command surface with semantic LOD, stable universe geometry, real Stargate topology, route/navigation context, Territory/SOV layers and deeper System/Pilot/Entity intelligence surfaces.
+### INTEL CHANNEL LIVE MAP
 
-### OVERWATCH V2
+Explicitly configured EVE Intel channels are monitored locally, deduplicated across multibox logs and projected into the same tactical map and Live Intelligence Feed with a separate operator-controlled Intel Range.
 
-A rebuilt current-session live-kill architecture designed around one accepted event stream for Feed, Map, Heat, Tactical Picture and Kill Bursts. Fresh process means fresh session; durable history does not silently become live truth.
+### ONE OPERATING PICTURE
 
-### Tactical Intelligence
+Local snapshots, D-Scan, Scouts, Watchlists, public kills and Intel reports are not treated as isolated widgets. They converge into one live command surface.
 
-Evidence-backed analysis now spans Tactical Summary, D-Scan analysis, Watchlists 2.0, Combat Hot Zones, Route Risk / Safer Route, Compare Intelligence, pilot/system/entity context and bounded historical behavior patterns.
+---
 
-### Tactical Memory
+## <img src="assets/sentinel-logo.png" width="18" alt=""> INTELLIGENCE ENGINE // WHAT RUNS UNDERNEATH
 
-Recent public combat observations can be retained in a bounded rolling 90-day historical Memory for recency-aware analysis, reconciliation and explainable intelligence.
+The `0.4.0-alpha` line pushes SENTINEL beyond a live-map tool into a persistent intelligence layer.
+
+New observations can be correlated with bounded recent evidence to build Pilot, System, Corporation and Alliance intelligence, including Tactical Summary, D-Scan analysis, Watchlists 2.0, Combat Hot Zones, Route Risk / Safer Route, Compare Intelligence, Hunter Trails, recurring aggressor networks and evidence-backed behavior context.
+
+The operating principle is simple:
+
+**OBSERVED → INFERRED → CONFIDENCE**
+
+SENTINEL does not invent unsupported threat or attack probabilities and does not claim information its data sources cannot provide.
+
+---
+
+## <img src="assets/sentinel-logo.png" width="18" alt=""> CURRENT DEVELOPMENT // 0.4.0-alpha
+
+**MAP 2.0** — one continuous New Eden command surface with semantic LOD, real Stargate topology, navigation/route context, SOV/Territory layers and deep Pilot/System/Entity surfaces.
+
+**OVERWATCH V2** — dedicated current-session live-kill architecture across Feed, Map, Heat, Tactical Picture and Kill Bursts, with fresh-process session truth and bounded fallback behavior.
+
+**Tactical Memory** — a rolling 90-day PostgreSQL-backed history of recent public combat observations with provenance, reconciliation and read-only intelligence consumers.
+
+**Tactical Intelligence** — evidence-backed analysis of pilots, systems, corporations, alliances, route pressure, roaming patterns, gang tendencies and historical fit evidence.
+
+The project remains in **closed private development** until access is deliberately granted.
 
 ---
 
 ## <img src="assets/sentinel-logo.png" width="18" alt=""> DEVELOPMENT LINE
-
-SENTINEL has moved through three important recent stages:
 
 | Line | Meaning |
 |---|---|
 | `0.2.30-alpha` | last packaged Windows Tactical Intelligence build |
 | `0.3.0-alpha` | frozen Live Relay / Tactical Memory / Intelligence Brain milestone |
 | `0.4.0-alpha` | active MAP 2.0 / OVERWATCH V2 / Tactical Intelligence development |
-
-The current phase also included a dedicated core cleanup: obsolete shadow/soak paths were retired, live authority semantics were consolidated, simulation was isolated from evidence, frontend transport/presentation responsibilities were separated and the release workflow was hardened around PR + CI + controlled promotion.
-
----
-
-## <img src="assets/sentinel-logo.png" width="18" alt=""> TRUTH MODEL
-
-SENTINEL follows:
-
-**OBSERVED → INFERRED → CONFIDENCE**
-
-That distinction matters in EVE intelligence:
-
-- a published killmail proves the event, not continued pilot presence;
-- historical fits are not current fits;
-- repeated co-attacking is not automatically fleet membership;
-- Local and D-Scan are snapshots, not permanent state;
-- route, roam and behavior reconstruction must remain evidence- and recency-aware.
-
-SENTINEL does not invent unsupported threat or attack probabilities.
-
----
-
-## <img src="assets/sentinel-logo.png" width="18" alt=""> OPERATOR FOCUS
-
-The application is being built for pilots and groups who want better context around:
-
-- mining and industrial operations;
-- hauling and route awareness;
-- PvE pockets and staging systems;
-- scouting and roaming;
-- hunting and hostile activity discovery;
-- corporation/fleet situational awareness.
-
-The same product can help a pilot avoid activity or deliberately find it. SENTINEL provides context; the player makes the decision.
-
----
-
-## <img src="assets/sentinel-logo.png" width="18" alt=""> DATA BOUNDARY
-
-SENTINEL is designed around legitimate third-party data sources and user-provided observations such as CCP ESI/SDE, public combat publication data, Local/D-Scan clipboard snapshots and configured Intel-channel/log evidence.
-
-It does **not** automate gameplay input, broadcast client actions or manipulate the EVE client.
-
----
-
-## <img src="assets/sentinel-logo.png" width="18" alt=""> RELEASE PHILOSOPHY
-
-Development moves quickly, releases deliberately.
 
 ```text
 Feature / Fix / Chore
@@ -122,17 +109,33 @@ Feature / Fix / Chore
 → Access Decision
 ```
 
-The project remains private until that final access decision is intentional.
+---
+
+## <img src="assets/sentinel-logo.png" width="18" alt=""> DATA BOUNDARY
+
+SENTINEL is designed around legitimate EVE third-party data boundaries: CCP ESI/SDE, public combat publication evidence, explicit Local/D-Scan clipboard snapshots and explicitly configured Intel-channel/log observations.
+
+It does **not** automate gameplay input, broadcast client actions or manipulate the EVE client.
+
+---
+
+## <img src="assets/sentinel-logo.png" width="18" alt=""> PROJECT HOME
+
+**Robocapa-eve on GitHub:** https://github.com/Robocapa-eve
+
+SENTINEL source development and the private release vault are maintained under this account while the project remains closed.
 
 ---
 
 <div align="center">
 
-<img src="assets/sentinel-logo.png" width="28" alt="SENTINEL mark">
+<img src="assets/sentinel-logo.png" width="30" alt="SENTINEL mark">
 
 ### KEEP YOUR TOOLS. ADD INTELLIGENCE.
 
-**See the event. Know the distance. Understand the evidence. React sooner.**
+**Live signal in. Tactical context out.**
+
+**See the event. Know the distance. Understand the pilots behind it. React sooner.**
 
 <sub>SENTINEL is an independent third-party application for EVE Online and is not affiliated with or endorsed by CCP Games. EVE Online and related marks are property of CCP hf.</sub>
 
