@@ -1,233 +1,142 @@
 <div align="center">
 
-<img src="assets/sentinel-logo.png" width="44" alt="SENTINEL Logo">
+<img src="assets/sentinel-logo.png" width="50" alt="SENTINEL mark">
 
 # SENTINEL // TACTICAL INTELLIGENCE
 
-### **Tactical Intelligence for EVE Online**
+### Tactical Intelligence for EVE Online
 
-**Your Tactical Intelligence HQ for New Eden.**
+**Private development. Evidence first. Built for New Eden.**
 
-<br>
+`0.4.0-alpha` · `CLOSED DEVELOPMENT` · `WINDOWS x64`
 
-![Status](https://img.shields.io/badge/STATUS-ACTIVE%20DEVELOPMENT-35c98b?style=flat-square)
-![Channel](https://img.shields.io/badge/CHANNEL-ALPHA-4da3d9?style=flat-square)
-![Platform](https://img.shields.io/badge/PLATFORM-WINDOWS-737d8c?style=flat-square)
-![Public](https://img.shields.io/badge/PUBLIC%20BUILD-0.2.30--alpha-8b6fd9?style=flat-square)
-![Development](https://img.shields.io/badge/DEV%20LINE-0.3.0--alpha-d86f45?style=flat-square)
-
-<br>
-
-**🇬🇧 English** · [🇩🇪 Deutsch](README_DE.md)
+**English** · [Deutsch](README_DE.md)
 
 </div>
 
-<p align="center">
-  <a href="https://raw.githubusercontent.com/Robocapa-eve/sentinel-releases/main/assets/screenshots/sentinel-tactical-intelligence-overview-full.jpg">
-    <img src="https://raw.githubusercontent.com/Robocapa-eve/sentinel-releases/main/assets/screenshots/sentinel-tactical-intelligence-overview.webp" width="460" alt="SENTINEL Tactical Intelligence Overview">
-  </a>
-</p>
-
 ---
 
-## 👋 Robocapa
+## <img src="assets/sentinel-logo.png" width="18" alt=""> ROBOCAPA
 
-I am the developer behind **SENTINEL**, an independent tactical-intelligence platform for **EVE Online**.
+I develop **SENTINEL**, an independent tactical-intelligence application for **EVE Online**.
 
-The project is built around one rule:
+The project is built around one principle:
 
 > **Information should reduce reaction time — not create more noise.**
 
-SENTINEL combines live events from New Eden with map context, monitoring origin, jump distance, Intel channels, Scouts, Local Scan, route context and Windows alerts.
+SENTINEL is not intended to be another static map or another killboard. The goal is a persistent tactical command surface that combines live public observations, New Eden context, user-supplied intelligence and bounded historical evidence without pretending that old data is current truth.
 
-The current development line is now adding something deeper behind that interface: **bounded Tactical Memory and an explainable Intelligence Brain**.
-
-### **See the threat. Know the distance. Understand the pattern. React sooner.**
+The project is currently in **closed private development**. Source code, release assets and active development remain private until the product is ready for deliberately granted access.
 
 ---
 
-# ⚡ LATEST SENTINEL ENGINEERING SPRINT
+## <img src="assets/sentinel-logo.png" width="18" alt=""> CURRENT SIGNAL // 0.4.0-alpha
 
-### **31 August → 1 September 2026**
+The active `0.4.0-alpha` line is the largest SENTINEL development cycle so far.
 
-Two calendar days produced the largest architecture jump in SENTINEL so far.
+### MAP 2.0
 
-The sprint started with the public `0.2.30-alpha` Tactical Intelligence System and continued into a production-backed `0.3.0-alpha` intelligence foundation:
+One continuous New Eden command surface with semantic LOD, stable universe geometry, real Stargate topology, route/navigation context, Territory/SOV layers and deeper System/Pilot/Entity intelligence surfaces.
 
-- 🛰️ dedicated HTTPS/WSS Live Relay
-- 🧠 PostgreSQL 16-backed Tactical Memory
-- 🔄 completed-day reconciliation and safe missing-ID repair
-- 📦 **13,962 public killmails** durably processed by a bounded historical production canary
-- 🕒 rolling **90-day UTC** Memory retention
-- 🛡️ verified PostgreSQL backup and disposable restore drills
-- 🧠 Tactical Intelligence Brain **1A** for observed pilot behavior
-- 🧠 Tactical Intelligence Brain **1B** for systems, corporations and alliances
-- 🔐 hardened security, CI and repository-integrity automation
+### OVERWATCH V2
 
-The final combined Windows/relay repository gate completed with **224 tests passed** on Windows / Python 3.12. The dedicated PostgreSQL-backed Tactical Intelligence 1B line passed **71 tests**.
+A rebuilt current-session live-kill architecture designed around one accepted event stream for Feed, Map, Heat, Tactical Picture and Kill Bursts. Fresh process means fresh session; durable history does not silently become live truth.
 
-At the latest 1B production checkpoint, the bounded Memory contained roughly **480k canonical kills**, **2.0M attacker rows** and **7.8M item rows**.
+### Tactical Intelligence
 
-### → [Read the full public engineering chronicle](https://github.com/Robocapa-eve/sentinel-releases/blob/main/CHANGELOG.md)
+Evidence-backed analysis now spans Tactical Summary, D-Scan analysis, Watchlists 2.0, Combat Hot Zones, Route Risk / Safer Route, Compare Intelligence, pilot/system/entity context and bounded historical behavior patterns.
 
-`0.3.0-alpha` remains a development line. The downloadable Windows build deliberately remains `0.2.30-alpha` until a real 0.3.0 installer has been built, tested, published and verified.
+### Tactical Memory
+
+Recent public combat observations can be retained in a bounded rolling 90-day historical Memory for recency-aware analysis, reconciliation and explainable intelligence.
 
 ---
 
-# 🛰️ WHAT SENTINEL IS BECOMING
+## <img src="assets/sentinel-logo.png" width="18" alt=""> DEVELOPMENT LINE
 
-SENTINEL is not another static map and not another killboard.
+SENTINEL has moved through three important recent stages:
 
-It is being built as a persistent tactical companion for pilots who want to understand:
-
-- what is happening now
-- how far away it is
-- whether it matters to their operation
-- whether recent behavior shows a useful pattern
-
-The same intelligence can protect a mining operation, hauling route, PvE pocket or staging system — or help hunters, scouts and roamers find active space.
-
-**Built for miners, haulers, PvE pilots, explorers, scouts, hunters, roamers, fleets and corporations.**
-
----
-
-# ⚡ CURRENT OPERATOR SYSTEMS
-
-### 💀 LIVE KILL MAP
-Public kill activity is resolved against the New Eden universe graph and placed into map/distance context.
-
-### 🚨 TACTICAL LIVE MAP WARNING SYSTEM
-Relevant activity becomes an active warning layer around the system actually being monitored.
-
-### 🛰️ MULTI-CHANNEL INTEL MAP
-User-enabled Intel channels feed into the same tactical map and monitoring context.
-
-### 🧭 MONITORING ORIGIN
-AUTO · MAIN can follow the configured MAIN character; MANUAL monitoring can watch another system while the map is explored independently.
-
-### 📍 SYSTEM TOOLTIPS & ROUTE CONTEXT
-Systems expose tactical history and deliberate map/route actions without forcing camera movement.
-
----
-
-# 🧠 0.3.0 DEVELOPMENT LINE
-
-The biggest recent change is behind the UI.
-
-## Dedicated Live Relay
-
-SENTINEL now operates a dedicated HTTPS/WSS relay at `relay.sentinel-eve.de` with sequential public R2Z2 ingestion, reconnect/resume and bounded live delivery.
-
-Direct R2Z2 still remains the authoritative desktop source while the relay is validated as a future candidate path.
-
-## Rolling 90-day Tactical Memory
-
-Recent public combat observations can now be kept in a bounded PostgreSQL-backed Memory.
-
-The production horizon is deliberately **90 days** so SENTINEL can learn recent tactical patterns without becoming an expensive permanent archive.
-
-## Tactical Intelligence Brain 1A
-
-Pilot behavior analysis can derive observed:
-
-- ship and weapon usage
-- target preferences
-- recurring co-attacker relationships
-- historical loss-fit families
-- evidence, recency and confidence
-
-## Tactical Intelligence Brain 1B
-
-The Brain now also builds recent profiles for:
-
-- solar systems
-- corporations
-- alliances
-- attacker/victim hull patterns
-- UTC activity distributions
-- recurring co-attacking organizations
-
-SENTINEL keeps inference honest: historical fits are not called current fits, recurring co-attackers are not automatically called fleet members, and route/roam reconstruction is still a future dedicated phase.
-
----
-
-# 🖥️ WINDOWS APPLICATION
-
-The current public build already includes:
-
-- MAP INTEL profiles
-- Tactical Feed Depth
-- Tactical Intelligence Feed
-- KILL HEAT
-- Tactical Picture
-- pinned System Tooltips
-- SYSTEM VERLAUF
-- Local Scan
-- MAIN / Scout roles
-- EVE SSO / ESI
-- native Windows alerts
-- Dark / Light / OLED themes
-- German and English UI
-- verified one-click updates
-
-SENTINEL supports gameplay decisions and **does not automate gameplay input**.
-
----
-
-# 🚀 PROJECT STATUS
-
-| | |
+| Line | Meaning |
 |---|---|
-| **Project** | SENTINEL // Tactical Intelligence |
-| **Developer** | Robocapa |
-| **Latest public Windows build** | `0.2.30-alpha` |
-| **Current development line** | `0.3.0-alpha` |
-| **Channel** | Alpha / pre-release |
-| **Platform** | Windows x64 |
-| **Source code** | Private |
+| `0.2.30-alpha` | last packaged Windows Tactical Intelligence build |
+| `0.3.0-alpha` | frozen Live Relay / Tactical Memory / Intelligence Brain milestone |
+| `0.4.0-alpha` | active MAP 2.0 / OVERWATCH V2 / Tactical Intelligence development |
 
-### → [SENTINEL Releases](https://github.com/Robocapa-eve/sentinel-releases/releases)
-### → [Public Development Log](https://github.com/Robocapa-eve/sentinel-releases/blob/main/CHANGELOG.md)
-### → [Public Release Repository](https://github.com/Robocapa-eve/sentinel-releases)
-
-The public updater remains on **0.2.30-alpha** until a real 0.3.0 Windows installer exists and has been verified.
+The current phase also included a dedicated core cleanup: obsolete shadow/soak paths were retired, live authority semantics were consolidated, simulation was isolated from evidence, frontend transport/presentation responsibilities were separated and the release workflow was hardened around PR + CI + controlled promotion.
 
 ---
 
-# 🔭 NEXT DIRECTION
+## <img src="assets/sentinel-logo.png" width="18" alt=""> TRUTH MODEL
 
-Current development is moving toward:
+SENTINEL follows:
 
-- UI integration for the 90-day Tactical Memory
-- Pilot / System / Corporation / Alliance intelligence views
-- Roam and movement episode inference with explicit confidence
-- likely route reconstruction
-- Content Hotspots / Hostile Pressure / Route Threat
-- Watchlist and ganker-group intelligence
-- broader public alpha testing
+**OBSERVED → INFERRED → CONFIDENCE**
 
-The project also follows a **GitHub zero-cost policy** for infrastructure: production tactical database storage is not designed around paid GitHub Artifacts, Packages or Codespaces.
+That distinction matters in EVE intelligence:
+
+- a published killmail proves the event, not continued pilot presence;
+- historical fits are not current fits;
+- repeated co-attacking is not automatically fleet membership;
+- Local and D-Scan are snapshots, not permanent state;
+- route, roam and behavior reconstruction must remain evidence- and recency-aware.
+
+SENTINEL does not invent unsupported threat or attack probabilities.
+
+---
+
+## <img src="assets/sentinel-logo.png" width="18" alt=""> OPERATOR FOCUS
+
+The application is being built for pilots and groups who want better context around:
+
+- mining and industrial operations;
+- hauling and route awareness;
+- PvE pockets and staging systems;
+- scouting and roaming;
+- hunting and hostile activity discovery;
+- corporation/fleet situational awareness.
+
+The same product can help a pilot avoid activity or deliberately find it. SENTINEL provides context; the player makes the decision.
+
+---
+
+## <img src="assets/sentinel-logo.png" width="18" alt=""> DATA BOUNDARY
+
+SENTINEL is designed around legitimate third-party data sources and user-provided observations such as CCP ESI/SDE, public combat publication data, Local/D-Scan clipboard snapshots and configured Intel-channel/log evidence.
+
+It does **not** automate gameplay input, broadcast client actions or manipulate the EVE client.
+
+---
+
+## <img src="assets/sentinel-logo.png" width="18" alt=""> RELEASE PHILOSOPHY
+
+Development moves quickly, releases deliberately.
+
+```text
+Feature / Fix / Chore
+→ Pull Request
+→ Full CI
+→ Stable Development Foundation
+→ Acceptance + Live QA
+→ Release Candidate
+→ Verified Windows Build
+→ Access Decision
+```
+
+The project remains private until that final access decision is intentional.
 
 ---
 
 <div align="center">
 
-### **KEEP YOUR TOOLS. ADD INTELLIGENCE.**
+<img src="assets/sentinel-logo.png" width="28" alt="SENTINEL mark">
 
-**Protect yourself. Find the action. Understand what is happening beyond your grid.**
+### KEEP YOUR TOOLS. ADD INTELLIGENCE.
 
-<br>
+**See the event. Know the distance. Understand the evidence. React sooner.**
 
-**🇬🇧 English** · [🇩🇪 Deutsch](README_DE.md)
+<sub>SENTINEL is an independent third-party application for EVE Online and is not affiliated with or endorsed by CCP Games. EVE Online and related marks are property of CCP hf.</sub>
 
 <br><br>
-
-<sub>
-SENTINEL is an independent third-party application for EVE Online and is not affiliated with or endorsed by CCP Games.<br>
-EVE Online and related marks are property of CCP hf.
-</sub>
-
-<br>
 
 **Developed & maintained by Robocapa**
 
